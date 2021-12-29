@@ -1,3 +1,46 @@
+:root {
+  --brand-color: #2196f3;
+  --main-bcg-color: #ffffff;
+  --filter-btn-color: #f5f4fa;
+}
+
+.logo-blue {
+  font-family: "Raleway", sans-serif;
+  color: #212121;
+  background-color: #ffffff;
+  Font size: 18px;
+  Line height: 36px;
+  Line height: 1.7;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  background-color: #ffffff;
+  Font size: 18px;
+  Line height: 36px;
+  Line height: 1.7;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* шапка */
+
 .header-nav-button {
   color: rgb(0, 0, 0);
 }
