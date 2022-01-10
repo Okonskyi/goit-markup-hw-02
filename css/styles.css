@@ -4,14 +4,6 @@
   --filter-btn-color: #f5f4fa;
 }
 
-.logo-blue {
-  font-family: "Raleway", sans-serif;
-  color: #212121;
-  background-color: #ffffff;
-  Font size: 18px;
-  Line height: 36px;
-  Line height: 1.7;
-}
 
 h3 {
   font-family: "Roboto", sans-serif;
@@ -41,9 +33,20 @@ body {
 
 /* шапка */
 
-.header-nav-button {
-  color: rgb(0, 0, 0);
+.site-nav {
+  color: #212121);
 }
+
+.site-nav:hover,
+.site-nav:focus {
+  color: #2196F3);
+  
+}
+
+.auth-nav {
+  color: #757575;
+}
+
 .filter-button {
   color: #2196f3;
 }
