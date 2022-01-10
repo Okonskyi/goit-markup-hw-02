@@ -37,8 +37,8 @@ body {
   color: #212121);
 }
 
-.site-nav:hover,
-.site-nav:focus {
+.site-nav-item:hover,
+.site-nav-item:focus {
   color: #2196F3);
   
 }
@@ -50,7 +50,7 @@ body {
 .filter-button {
   color: #2196f3;
 }
-.filter-button:hover,
-.filter-button:focus {
+.filter-button-item:hover,
+.filter-button-item:focus {
   color: #2196f3;
 }
