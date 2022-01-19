@@ -2,14 +2,16 @@
   --brand-color: #2196f3;
   --main-bcg-color: #ffffff;
   --filter-btn-color: #f5f4fa;
+  --brand-text-color1: #212121;
+  --brand-text-color2: #757575;  
 }
 
 
 h3 {
   font-family: "Roboto", sans-serif;
-  color: #212121;
-  background-color: #ffffff;
-  Font size: 18px;
+  color: var(--brand-color);
+  background-color: var(--main-bcg-color);
+  font size: 18px;
   Line height: 36px;
   Line height: 1.7;
 }
@@ -27,28 +29,39 @@ a {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #000000;
-  background-color: #ffffff;
+  color: var(--brand-text-color1);
+  background-color: var(--main-bcg-color);
 }
 
 /* шапка */
 
 .site-nav {
-  color: #212121);
+  color: var(--brand-text-color1);
+  background-color: var(--main-bcg-color);
+  font-style: normal;
+  font-weight: 500;
+  font size: 14;
+}
+
+.site-nav-item {
+ font-family: "Roboto", sans-serif;
+
 }
 
 .site-nav-item:hover,
 .site-nav-item:focus {
   color: #2196F3);
-  
 }
+
 
 .auth-nav {
-  color: #757575;
+  color: var(--brand-text-color2);
+  background-color: var(--main-bcg-color);
 }
 
-.filter-button {
-  color: #2196f3;
+.filter-button-item {
+  color: var(--brand-color);
+
 }
 .filter-button-item:hover,
 .filter-button-item:focus {
