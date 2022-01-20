@@ -23,11 +23,62 @@ ol {
 }
 a {
   text-decoration: none;
+  color: var(--brand-text-color1);
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--brand-text-color1);
   background-color: var(--main-bcg-color);
+}
+
+/* ---------- Шапка сайта (Хеддер) ---------- */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  /*background-color: var(--main-bcg-color);*/
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+}
+.logo-web {
+  color: var(--brand-color);
+}
+.logo-studio-top {
+  color: var(--brand-text-color1);
+}
+.site-nav-item {
+  font-family: "Roboto", sans-serif;
+  color: var(--brand-text-color1);
+  background-color: var(--main-bcg-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+.site-nav-item:hover,
+.site-nav-item:focus {
+  color: var(--brand-color);
+}
+/*.site-nav-info-top {
+  font-family: "Roboto", sans-serif;
+  color: var(--brand-text-color1);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+.site-nav-link {
+  font-family: "Roboto", sans-serif;
+  color: var(--brand-text-color1);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
 }
 /*.nav-info-top {
   font-family: "Roboto", sans-serif;
@@ -47,42 +98,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.02em;
 } */
-.site-nav-info-top {
-  font-family: "Roboto", sans-serif;
-  color: var(--brand-text-color1);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-}
-/* ---------- Шапка сайта (Хеддер) ---------- */
-.logo {
-  font-family: "Raleway", sans-serif;
-  /*background-color: var(--main-bcg-color);*/
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.4;
-  letter-spacing: 0.03em;
-}
-.logo-web {
-  color: var(--brand-color);
-}
-.site-nav-item {
-  font-family: "Roboto", sans-serif;
-  color: var(--brand-text-color1);
-  background-color: var(--main-bcg-color);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-}
-.site-nav-item:hover,
-.site-nav-item:focus {
-  color: var(--brand-color);
-}
 .auth-nav-item:hover,
 .auth-nav-item:focus {
   color: var(--brand-color);
@@ -100,22 +115,25 @@ body {
 .active {
   color: var(--brand-color);
 }
-/* ---------- герой ---------- */
 .site-nav-link:focus,
 .site-nav-link:hover {
   color: var(--brand-color);
 }
+
+/* ---------- Основной контент (Герой) ---------- */
+
 .portfolio-btn:focus,
 .portfolio-btn:hover {
   color: var(--main-bcg-color);
   background-color: var(--brand-color);
 }
+.portfolio-btn {
+  cursor: pointer;
+}
 .h1-hidden {
   display: none;
 }
-.active {
-  color: var(--brand-color);
-}
+
 /* --------- Подвал сайта (Футтер) --------- */
 
 .footer {
@@ -128,12 +146,14 @@ body {
 .logo-studio-footer {
   color: var(--main-bcg-color);
 }
+.nav-info-footer {
+}
 .auth-nav-link {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .color-top {
   color: var(--brand-text-color2);
@@ -141,7 +161,6 @@ body {
 .color-footer-100 {
   color: rgba(255, 255, 255, 1);
 }
-
 .color-footer-60 {
   color: rgba(255, 255, 255, 0.6);
 }
