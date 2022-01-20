@@ -3,67 +3,145 @@
   --main-bcg-color: #ffffff;
   --filter-btn-color: #f5f4fa;
   --brand-text-color1: #212121;
-  --brand-text-color2: #757575;  
+  --brand-text-color2: #757575;
+  --footer-color: #2f303a;
 }
-
-
 h3 {
   font-family: "Roboto", sans-serif;
-  color: var(--brand-color);
+  color: var(--brand-text-color1);
   background-color: var(--main-bcg-color);
-  font size: 18px;
-  Line height: 36px;
-  Line height: 1.7;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
 }
-
 ul,
 ol {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 a {
   text-decoration: none;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   color: var(--brand-text-color1);
   background-color: var(--main-bcg-color);
 }
-
-/* шапка */
-
-.site-nav {
+/*.nav-info-top {
+  font-family: "Roboto", sans-serif;
+  color: var(--brand-text-color2);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+} 
+.nav-info-footer {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-bcg-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+} */
+.site-nav-info-top {
+  font-family: "Roboto", sans-serif;
+  color: var(--brand-text-color1);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+/* ---------- Шапка сайта (Хеддер) ---------- */
+.logo {
+  font-family: "Raleway", sans-serif;
+  /*background-color: var(--main-bcg-color);*/
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+}
+.logo-web {
+  color: var(--brand-color);
+}
+.site-nav-item {
+  font-family: "Roboto", sans-serif;
   color: var(--brand-text-color1);
   background-color: var(--main-bcg-color);
   font-style: normal;
   font-weight: 500;
-  font size: 14;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
 }
-
-.site-nav-item {
- font-family: "Roboto", sans-serif;
-
-}
-
 .site-nav-item:hover,
 .site-nav-item:focus {
-  color: #2196F3);
-}
-
-
-.auth-nav {
-  color: var(--brand-text-color2);
-  background-color: var(--main-bcg-color);
-}
-
-.filter-button-item {
   color: var(--brand-color);
-
 }
-.filter-button-item:hover,
-.filter-button-item:focus {
-  color: #2196f3;
+.auth-nav-item:hover,
+.auth-nav-item:focus {
+  color: var(--brand-color);
+}
+.auth-nav.link {
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+  background-color: var(--main-bcg-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+.active {
+  color: var(--brand-color);
+}
+/* ---------- герой ---------- */
+.site-nav-link:focus,
+.site-nav-link:hover {
+  color: var(--brand-color);
+}
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+  color: var(--main-bcg-color);
+  background-color: var(--brand-color);
+}
+.h1-hidden {
+  display: none;
+}
+.active {
+  color: var(--brand-color);
+}
+/* --------- Подвал сайта (Футтер) --------- */
+
+.footer {
+  padding-top: 60px;
+  background-color: var(--footer-color);
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+}
+.logo-studio-footer {
+  color: var(--main-bcg-color);
+}
+.auth-nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+.color-top {
+  color: var(--brand-text-color2);
+}
+.color-footer-100 {
+  color: rgba(255, 255, 255, 1);
+}
+
+.color-footer-60 {
+  color: rgba(255, 255, 255, 0.6);
 }
