@@ -6,6 +6,21 @@
   --brand-text-color2: #757575;
   --footer-color: #2f303a;
 }
+h1 {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+h3 {
+  text-transform: uppercase;
+  color: var(--brand-text-color1);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
 h3 {
   font-family: "Roboto", sans-serif;
   color: var(--brand-text-color1);
@@ -120,7 +135,7 @@ body {
 .site-nav-link:hover {
   color: var(--brand-color);
 }
-.h3-title {
+.title {
   color: var(--brand-text-color2);
   font-size: 16px;
   line-height: 1, 875;
@@ -136,7 +151,7 @@ body {
 .portfolio-btn {
   cursor: pointer;
 }
-.h1-hidden {
+.main-title {
   display: none;
 }
 
